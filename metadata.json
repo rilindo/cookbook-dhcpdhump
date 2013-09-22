@@ -1,0 +1,30 @@
+{
+  "name": "dhcpdump",
+  "description": "Installs dhcpdump",
+  "long_description": "dhcpdump Cookbook\n=================\nInstalls dhcpdump, which is a wrapper tool for tcpdump that allows you to view DHCP requests and traffic in a more readable form.\n\nRequirements\n------------\nTool is specific to Ubuntu. There is another version of it for CentOS, but you will need access to EPEL. Support for it will be added in the future.\n\n\nAttributes\n----------\n* `['dhcpdump']['package_name']` - package name. Defaults to `dhcpdump`.\n\nUsage\n-----\n\nJust include `dhcpdump` in your node's `run_list`:\n\n```json\n{\n  \"name\":\"my_node\",\n  \"run_list\": [\n    \"recipe[dhcpdump]\"\n  ]\n}\n```\n\nContributing\n------------\nTo contribute\n\n1. Fork the repository on Github\n2. Create a named feature branch (like `add_component_x`)\n3. Write you change\n4. Submit a Pull Request using Github\n\nLicense and Authors\n-------------------\nAuthors: Rilindo Foster <rilindo.foster@monzell.com>\n",
+  "maintainer": "Rilindo Foster",
+  "maintainer_email": "rilindo.foster@monzell.com",
+  "license": "All rights reserved",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}
