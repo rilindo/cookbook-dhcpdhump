@@ -11,6 +11,10 @@ This file is used to list changes made in each version of the dhcpdump cookbook.
 -----
 - [Rilindo Foster] - Added support for CentOS/RHEL
 
+0.1.3
+-----
+- [Rilindo Foster] - Added ignore file for DS_store.
+
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
