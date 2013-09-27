@@ -4,8 +4,7 @@ Installs dhcpdump, which is a wrapper tool for tcpdump that allows you to view D
 
 Requirements
 ------------
-Tool is specific to Ubuntu. There is another version of it for CentOS, but you will need access to EPEL. Support for it will be added in the future.
-
+It installs off from Ubuntu out of the box. For CentOS/RHEL, you will need the repoforge or RHEL repo.
 
 Attributes
 ----------
@@ -24,6 +23,9 @@ Just include `dhcpdump` in your node's `run_list`:
   ]
 }
 ```
+
+For CentOS and RHEL, you will need to include the yum::repoforge and/or yum::epel as well. Note that if you installed
+from Opscode, you may need to exclude chef in repoforge and epel's repo.
 
 Contributing
 ------------

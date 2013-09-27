@@ -5,7 +5,11 @@ This file is used to list changes made in each version of the dhcpdump cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of dhcpdump
+- [Rilindo Foster] - Initial release of dhcpdump
+
+0.1.1
+-----
+- [Rilindo Foster] - Added support for CentOS/RHEL
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
